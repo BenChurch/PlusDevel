@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/D/PBE/PlusLib/src/Documentation/ApiReference/CMakeLists.txt
+C:/Program Files/CMake/share/cmake-3.6/Modules/FindDoxygen.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeParseArguments.cmake
+C:/D/PBE/PlusLib/src/Documentation/ApiReference/Doxyfile.txt.in
+C:/D/PBE/PlusLib/src/Documentation/ApiReference/generate_doc.cmake.in

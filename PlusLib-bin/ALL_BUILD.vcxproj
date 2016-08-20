@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{72D49149-15D7-312F-B9B7-C7067F6C3410}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\D\PBE\PlusLib\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/D/PBE/PlusLib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/D/PBE/PlusLib -BC:/D/PBE/PlusLib-bin --check-stamp-file C:\D\PBE\PlusLib-bin\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/D/PBE/PlusLib/CMakeLists.txt;C:\D\PBE\PlusLib\CMakeLists.txt;C:\D\PBE\PlusLib-bin\CMakeFiles\3.6.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\D\PBE\PlusLib-bin\CMakeFiles\3.6.1\CMakeCCompiler.cmake;C:\D\PBE\PlusLib-bin\CMakeFiles\3.6.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\D\PBE\PlusLib-bin\CMakeFiles\3.6.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindSubversion.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CTestUseLaunchers.cmake;C:\D\PBE\PlusLib\CTestConfig.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\DartConfiguration.tcl.in;C:\D\PBE\PlusLib\BuildAndTest.bat.in;C:\D\PBE\PlusLib\CreateApiReference.bat.in;C:\D\PBE\PlusLib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\D\PBE\PlusLib-bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/D/PBE/PlusLib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/D/PBE/PlusLib -BC:/D/PBE/PlusLib-bin --check-stamp-file C:\D\PBE\PlusLib-bin\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/D/PBE/PlusLib/CMakeLists.txt;C:\D\PBE\PlusLib\CMakeLists.txt;C:\D\PBE\PlusLib-bin\CMakeFiles\3.6.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\D\PBE\PlusLib-bin\CMakeFiles\3.6.1\CMakeCCompiler.cmake;C:\D\PBE\PlusLib-bin\CMakeFiles\3.6.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\D\PBE\PlusLib-bin\CMakeFiles\3.6.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindSubversion.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CTestUseLaunchers.cmake;C:\D\PBE\PlusLib\CTestConfig.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\DartConfiguration.tcl.in;C:\D\PBE\PlusLib\BuildAndTest.bat.in;C:\D\PBE\PlusLib\CreateApiReference.bat.in;C:\D\PBE\PlusLib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\D\PBE\PlusLib-bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/D/PBE/PlusLib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/D/PBE/PlusLib -BC:/D/PBE/PlusLib-bin --check-stamp-file C:\D\PBE\PlusLib-bin\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/D/PBE/PlusLib/CMakeLists.txt;C:\D\PBE\PlusLib\CMakeLists.txt;C:\D\PBE\PlusLib-bin\CMakeFiles\3.6.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\D\PBE\PlusLib-bin\CMakeFiles\3.6.1\CMakeCCompiler.cmake;C:\D\PBE\PlusLib-bin\CMakeFiles\3.6.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\D\PBE\PlusLib-bin\CMakeFiles\3.6.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindSubversion.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CTestUseLaunchers.cmake;C:\D\PBE\PlusLib\CTestConfig.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\DartConfiguration.tcl.in;C:\D\PBE\PlusLib\BuildAndTest.bat.in;C:\D\PBE\PlusLib\CreateApiReference.bat.in;C:\D\PBE\PlusLib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\D\PBE\PlusLib-bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/D/PBE/PlusLib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/D/PBE/PlusLib -BC:/D/PBE/PlusLib-bin --check-stamp-file C:\D\PBE\PlusLib-bin\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/D/PBE/PlusLib/CMakeLists.txt;C:\D\PBE\PlusLib\CMakeLists.txt;C:\D\PBE\PlusLib-bin\CMakeFiles\3.6.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\D\PBE\PlusLib-bin\CMakeFiles\3.6.1\CMakeCCompiler.cmake;C:\D\PBE\PlusLib-bin\CMakeFiles\3.6.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\D\PBE\PlusLib-bin\CMakeFiles\3.6.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindSubversion.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CTestUseLaunchers.cmake;C:\D\PBE\PlusLib\CTestConfig.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\DartConfiguration.tcl.in;C:\D\PBE\PlusLib\BuildAndTest.bat.in;C:\D\PBE\PlusLib\CreateApiReference.bat.in;C:\D\PBE\PlusLib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\D\PBE\PlusLib-bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/ZERO_CHECK.vcxproj">
+      <Project>C950C267-BD6D-3F08-B271-3FC1719D7060</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusCommon/Testing/AccurateTimerTest.vcxproj">
+      <Project>99334459-0DAA-346D-B1BF-318B7C3F7BF3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusDataCollection/Testing/BrainLabTrackerSim.vcxproj">
+      <Project>D8A5C0FD-0A0A-333D-AE22-0E98F224EB4D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusVolumeReconstruction/CompareVolumes.vcxproj">
+      <Project>BEF7FAC6-7EF7-395F-983A-FF475EFEB54F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusCalibration/ConvertFcsvToXml.vcxproj">
+      <Project>52BABC41-744B-3B07-8B23-2C5CF41650A7</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusCalibration/ConvertXmlToFcsv.vcxproj">
+      <Project>7B00E75D-77D3-397C-93C2-CF04EC9AFC02</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusVolumeReconstruction/CreateSliceModels.vcxproj">
+      <Project>69096B6F-553E-32EB-962F-052E42AC1C6B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusVolumeReconstruction/DrawClipRegion.vcxproj">
+      <Project>B03DBC9C-90B6-3B47-8AD3-263E0D73022E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusImageProcessing/DrawScanLines.vcxproj">
+      <Project>299A85F1-2BC3-3708-844D-EA1190564E08</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusCommon/EditSequenceFile.vcxproj">
+      <Project>569CF024-0E06-32FF-B8A5-F1F998834DFB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusImageProcessing/ExtractScanLines.vcxproj">
+      <Project>B47147EA-878F-3727-87FA-18FC6E709A8A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusCommon/ModelRenderer.vcxproj">
+      <Project>0B4C5CEA-6BB0-3C30-A38B-8516A4550107</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusCalibration/Testing/PatternLocTest.vcxproj">
+      <Project>40A9C9E0-AF70-3AA9-989B-81F9042C7D29</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusCommon/Testing/PlusCommonTest.vcxproj">
+      <Project>2274F004-2A43-3999-B8AE-56610008B0C2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusCommon/Testing/PlusMathTest.vcxproj">
+      <Project>713114F1-82F5-3C48-AF10-70365DB7012C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusServer/PlusServer.vcxproj">
+      <Project>274127DF-0D9E-3227-8740-CC4236211058</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusServer/PlusServerRemoteControl.vcxproj">
+      <Project>361F277A-F6D1-367B-A569-8A9EF48496DC</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusDataCollection/PlusVersion.vcxproj">
+      <Project>172E2340-D22E-3301-877B-6AA77A8CCD22</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusCalibration/ProbeCalibration.vcxproj">
+      <Project>98D950CE-8DA3-3576-891F-D6BE78EF1157</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusDataCollection/Testing/ReplayRecordedDataTest.vcxproj">
+      <Project>3E2B44D9-4955-3334-8AE1-8D7971E8F330</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusImageProcessing/RfProcessor.vcxproj">
+      <Project>10CFAADC-02E3-3A69-A6C6-51146B7A84BC</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusImageProcessing/ScanConvert.vcxproj">
+      <Project>14B98F33-4B01-3FDC-99F3-377BE8BF57D9</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusCalibration/TemporalCalibration.vcxproj">
+      <Project>D6B9FE1A-2AF0-32CA-BEDF-ABCF3F5E041A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusDataCollection/Testing/TimestampFilteringTest.vcxproj">
+      <Project>BB5D7420-639A-35CA-AF61-A8993033DF9C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusDataCollection/Testing/TrackingTest.vcxproj">
+      <Project>B87A5A69-753A-3ADC-9EC3-8B643B4A0750</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusDataCollection/Testing/TransformInterpolationTest.vcxproj">
+      <Project>A1A20B21-1416-31AF-A929-2AFBE4D47BF5</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusDataCollection/ViewSequenceFile.vcxproj">
+      <Project>0BC4DD36-25E8-3479-BEC2-A8F3EE47A994</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusVolumeReconstruction/VolumeReconstructor.vcxproj">
+      <Project>9C738809-43BF-3B58-BD46-9F51276D7960</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusDataCollection/Testing/itkFcsvReaderTest1.vcxproj">
+      <Project>DC977A8D-D0D8-32C8-91FF-73C5EAAB5CB9</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusDataCollection/Testing/itkFcsvWriterTest1.vcxproj">
+      <Project>6FB18E44-43A8-361E-9191-3EF14B42158E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/Utilities/Ransac/planeEstimation.vcxproj">
+      <Project>F379D7B4-38CF-3DBD-8814-3D2D8559E1C3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/Utilities/Ransac/sphereEstimation.vcxproj">
+      <Project>B2866A40-ABA5-3669-9704-4023CA1D0C67</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusDataCollection/Testing/vtk3DDataCollectorTest1.vcxproj">
+      <Project>4DDC814C-FA3D-3BE7-8839-03524AC0287C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusCalibration/Testing/vtkCenterOfRotationCalibAlgoTest.vcxproj">
+      <Project>4938ED10-2E53-3598-B789-5F9FEC9B99EA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusDataCollection/Testing/vtkDataCollectorFileTest.vcxproj">
+      <Project>9DF40C20-8D3D-3062-A072-AEE1C9410BC1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusDataCollection/Testing/vtkDataCollectorTest1.vcxproj">
+      <Project>C66CECC2-5160-3CB9-8B93-74719679E55A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusDataCollection/Testing/vtkDataCollectorTest2.vcxproj">
+      <Project>716CEEFA-1FDD-39B9-A08D-AB4C7B1335A4</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusDataCollection/Testing/vtkDataCollectorVideoAcqTest.vcxproj">
+      <Project>A48D106C-1AD2-323F-BC48-124591B8C483</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusCalibration/Testing/vtkFreehandCalibrationStatisticalEvaluation.vcxproj">
+      <Project>C65E26DC-34F0-3395-B6B4-3143C8FAECD2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusCalibration/Testing/vtkLineSegmentationAlgoTest.vcxproj">
+      <Project>46EE22C8-B9D6-3F68-BA11-A73191B3E487</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusDataCollection/Testing/vtkMetaImageSequenceIOTest.vcxproj">
+      <Project>4EC29927-328C-380A-A170-B57D0B737C56</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusCalibration/Testing/vtkPhantomRegistrationLandmarkDetectionTest.vcxproj">
+      <Project>F3C65365-A092-3D05-B571-27F9E9A2F3CB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusCalibration/Testing/vtkPhantomRegistrationTest.vcxproj">
+      <Project>E6695B00-B3E3-3500-B6E8-9B59A48B8731</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusCalibration/vtkPlusCalibration.vcxproj">
+      <Project>EB69CC3B-A1B5-3D4D-BAA4-8074A3F66040</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusCommon/vtkPlusCommon.vcxproj">
+      <Project>8A5CB178-AF7C-3819-A7E3-743BCC82FA17</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusDataCollection/vtkPlusDataCollection.vcxproj">
+      <Project>1A8E2884-14A1-3DA0-9E9E-7287402A9D7B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusDataCollection/Testing/vtkPlusDeviceFactoryTest.vcxproj">
+      <Project>DF4730F7-710A-31EB-A9B2-C72B58A33024</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusDataCollection/Haptics/vtkPlusHaptics.vcxproj">
+      <Project>4C04BB08-29D4-3AC8-9874-25B3DE55F0E2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusImageProcessing/vtkPlusImageProcessing.vcxproj">
+      <Project>1881BA7A-1F40-3D59-939C-D713E33561B2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusCommon/Testing/vtkPlusLoggerTest.vcxproj">
+      <Project>6D40B304-4AFF-35A3-BA16-3DE92128288E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusOpenIGTLink/vtkPlusOpenIGTLink.vcxproj">
+      <Project>C7D8F694-A354-3F85-B55E-5E008688E709</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusServer/vtkPlusServer.vcxproj">
+      <Project>44FDBB2F-9219-37F9-8686-F5EA064716B3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusUsSimulator/vtkPlusUsSimulator.vcxproj">
+      <Project>DA018039-9EEF-350D-99FE-05568090DA69</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusUsSimulator/Testing/vtkPlusUsSimulatorTest.vcxproj">
+      <Project>22AC64AD-3FCE-3BFE-B3F5-70995B21EC66</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusVolumeReconstruction/vtkPlusVolumeReconstruction.vcxproj">
+      <Project>9AC34B8E-4B20-39A7-B9BE-5438DDC152D1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusCalibration/Testing/vtkSegmentedWiresPositionsTest.vcxproj">
+      <Project>BB492E7B-F818-395D-9897-676D1277D401</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusCalibration/Testing/vtkSpacingCalibAlgoTest.vcxproj">
+      <Project>1736DBFE-B39B-3F33-9952-1F2D078055E8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusCalibration/Testing/vtkStylusCalibrationTest.vcxproj">
+      <Project>30203D72-84E6-32DF-8A8C-390C14C2DD44</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/PlusCommon/Testing/vtkTransformRepositoryTest.vcxproj">
+      <Project>9CC64CD7-DE1F-3954-B446-5CC2DAE3FF84</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/D/PBE/PlusLib-bin/src/Utilities/xio/vtkxio.vcxproj">
+      <Project>6A0B5945-F504-344F-A86C-17FE3E32D3FD</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

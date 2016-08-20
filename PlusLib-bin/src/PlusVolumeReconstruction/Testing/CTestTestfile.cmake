@@ -1,0 +1,36 @@
+# CMake generated Testfile for 
+# Source directory: C:/D/PBE/PlusLib/src/PlusVolumeReconstruction/Testing
+# Build directory: C:/D/PBE/PlusLib-bin/src/PlusVolumeReconstruction/Testing
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(vtkVolumeReconstructorTestRunNearLateUChar "C:/D/PBE/bin/VolumeReconstructor" "--config-file=C:/D/PBE/PlusLibData/ConfigFiles/Testing/PlusDeviceSet_VolumeReconstructionOnly_SonixRP_TRUS_D70mm_NN_LATE.xml" "--source-seq-file=C:/D/PBE/PlusLibData/TestImages/SpinePhantomFreehand.mha" "--output-volume-file=vtkVolumeReconstructorTestNNLATEvolume.mha" "--image-to-reference-transform=ImageToReference")
+set_tests_properties(vtkVolumeReconstructorTestRunNearLateUChar PROPERTIES  FAIL_REGULAR_EXPRESSION "ERROR;WARNING")
+add_test(vtkVolumeReconstructorTestRunNearMeanUChar "C:/D/PBE/bin/VolumeReconstructor" "--config-file=C:/D/PBE/PlusLibData/ConfigFiles/Testing/PlusDeviceSet_VolumeReconstructionOnly_SpinePhantom_NN_MEAN.xml" "--source-seq-file=C:/D/PBE/PlusLibData/TestImages/SpinePhantomFreehand.mha" "--output-volume-file=vtkVolumeReconstructorTestNNMEANvolume.mha" "--image-to-reference-transform=ImageToReference")
+set_tests_properties(vtkVolumeReconstructorTestRunNearMeanUChar PROPERTIES  FAIL_REGULAR_EXPRESSION "ERROR;WARNING")
+add_test(vtkVolumeReconstructorTestRunNearMaxiFloat "C:/D/PBE/bin/VolumeReconstructor" "--config-file=C:/D/PBE/PlusLibData/ConfigFiles/Testing/PlusDeviceSet_VolumeReconstructionOnly_SpinePhantom_NN_MAXI.xml" "--source-seq-file=C:/D/PBE/PlusLibData/TestImages/SpinePhantomFreehand3FramesFloat.mha" "--output-volume-file=vtkVolumeReconstructorTestNNMAXIvolume.mha" "--image-to-reference-transform=ImageToReference")
+set_tests_properties(vtkVolumeReconstructorTestRunNearMaxiFloat PROPERTIES  FAIL_REGULAR_EXPRESSION "ERROR;WARNING")
+add_test(vtkVolumeReconstructorTestRunLinrLateFloat "C:/D/PBE/bin/VolumeReconstructor" "--config-file=C:/D/PBE/PlusLibData/ConfigFiles/Testing/PlusDeviceSet_VolumeReconstructionOnly_SpinePhantom_LN_LATE.xml" "--source-seq-file=C:/D/PBE/PlusLibData/TestImages/SpinePhantomFreehand3FramesFloat.mha" "--output-volume-file=vtkVolumeReconstructorTestLNLATEvolume.mha" "--image-to-reference-transform=ImageToReference")
+set_tests_properties(vtkVolumeReconstructorTestRunLinrLateFloat PROPERTIES  FAIL_REGULAR_EXPRESSION "ERROR;WARNING")
+add_test(vtkVolumeReconstructorTestRunLinrMeanUChar "C:/D/PBE/bin/VolumeReconstructor" "--config-file=C:/D/PBE/PlusLibData/ConfigFiles/Testing/PlusDeviceSet_VolumeReconstructionOnly_SonixRP_TRUS_D70mm_LN_MEAN.xml" "--source-seq-file=C:/D/PBE/PlusLibData/TestImages/SpinePhantomFreehand.mha" "--output-volume-file=vtkVolumeReconstructorTestLNMEANvolume.mha" "--image-to-reference-transform=ImageToReference")
+set_tests_properties(vtkVolumeReconstructorTestRunLinrMeanUChar PROPERTIES  FAIL_REGULAR_EXPRESSION "ERROR;WARNING")
+add_test(vtkVolumeReconstructorTestRunLinrMaxiUChar "C:/D/PBE/bin/VolumeReconstructor" "--config-file=C:/D/PBE/PlusLibData/ConfigFiles/Testing/PlusDeviceSet_VolumeReconstructionOnly_SpinePhantom_LN_MAXI.xml" "--source-seq-file=C:/D/PBE/PlusLibData/TestImages/SpinePhantomFreehand.mha" "--output-volume-file=vtkVolumeReconstructorTestLNMAXIvolume.mha" "--image-to-reference-transform=ImageToReference")
+set_tests_properties(vtkVolumeReconstructorTestRunLinrMaxiUChar PROPERTIES  FAIL_REGULAR_EXPRESSION "ERROR;WARNING")
+add_test(vtkVolumeReconstructorTestCompareNearLateUChar "C:/Program Files/CMake/bin/cmake.exe" "-E" "compare_files" "C:/D/PBE/PlusLibData/TestImages/vtkVolumeReconstructorTestNNLATEvolumeRef.mha" "vtkVolumeReconstructorTestNNLATEvolume.mha")
+set_tests_properties(vtkVolumeReconstructorTestCompareNearLateUChar PROPERTIES  DEPENDS "vtkVolumeReconstructorTestRunNearLateUChar")
+add_test(vtkVolumeReconstructorTestCompareNearMeanUChar "C:/Program Files/CMake/bin/cmake.exe" "-E" "compare_files" "C:/D/PBE/PlusLibData/TestImages/vtkVolumeReconstructorTestNNMEANvolumeRef.mha" "vtkVolumeReconstructorTestNNMEANvolume.mha")
+set_tests_properties(vtkVolumeReconstructorTestCompareNearMeanUChar PROPERTIES  DEPENDS "vtkVolumeReconstructorTestRunNearMeanUChar")
+add_test(vtkVolumeReconstructorTestCompareNearMaxiFloat "C:/Program Files/CMake/bin/cmake.exe" "-E" "compare_files" "C:/D/PBE/PlusLibData/TestImages/vtkVolumeReconstructorTestNNMAXIvolumeRef.mha" "vtkVolumeReconstructorTestNNMAXIvolume.mha")
+set_tests_properties(vtkVolumeReconstructorTestCompareNearMaxiFloat PROPERTIES  DEPENDS "vtkVolumeReconstructorTestRunNearMaxiFloat")
+add_test(vtkVolumeReconstructorTestCompareLinrLateFloat "C:/Program Files/CMake/bin/cmake.exe" "-E" "compare_files" "C:/D/PBE/PlusLibData/TestImages/vtkVolumeReconstructorTestLNLATEvolumeRef.mha" "vtkVolumeReconstructorTestLNLATEvolume.mha")
+set_tests_properties(vtkVolumeReconstructorTestCompareLinrLateFloat PROPERTIES  DEPENDS "vtkVolumeReconstructorTestRunLinrLateFloat")
+add_test(vtkVolumeReconstructorTestCompareLinrMeanUChar "C:/Program Files/CMake/bin/cmake.exe" "-E" "compare_files" "C:/D/PBE/PlusLibData/TestImages/vtkVolumeReconstructorTestLNMEANvolumeRef.mha" "vtkVolumeReconstructorTestLNMEANvolume.mha")
+set_tests_properties(vtkVolumeReconstructorTestCompareLinrMeanUChar PROPERTIES  DEPENDS "vtkVolumeReconstructorTestRunLinrMeanUChar")
+add_test(vtkVolumeReconstructorTestCompareLinrMaxiUChar "C:/Program Files/CMake/bin/cmake.exe" "-E" "compare_files" "C:/D/PBE/PlusLibData/TestImages/vtkVolumeReconstructorTestLNMAXIvolumeRef.mha" "vtkVolumeReconstructorTestLNMAXIvolume.mha")
+set_tests_properties(vtkVolumeReconstructorTestCompareLinrMaxiUChar PROPERTIES  DEPENDS "vtkVolumeReconstructorTestRunLinrMaxiUChar")
+add_test(CreateSliceModelsTest "C:/D/PBE/bin/CreateSliceModels" "--source-seq-file=C:/D/PBE/PlusLibData/TestImages/NwirePhantomFreehand.mha" "--output-model-file=GeneratedSliceModels.mha" "--config-file=C:/D/PBE/PlusLibData/ConfigFiles/Testing/PlusDeviceSet_NwirePhantomFreehand_vtkVolumeReconstructorTest2.xml" "--image-to-reference-transform=ProbeToReference")
+set_tests_properties(CreateSliceModelsTest PROPERTIES  FAIL_REGULAR_EXPRESSION "ERROR;WARNING")
+add_test(DrawClipRegionRunTest "C:/D/PBE/bin/DrawClipRegion" "--config-file=C:/D/PBE/PlusLibData/ConfigFiles/PlusDeviceSet_fCal_Ultrasonix_C5-2_NDIPolaris_fCal3.xml" "--source-seq-file=C:/D/PBE/PlusLibData/TestImages/SpinePhantomPartialSurfaceContact.mha" "--output-seq-file=outputSpinePhantomPartialSurfaceContactWithClipRegion.mha")
+set_tests_properties(DrawClipRegionRunTest PROPERTIES  FAIL_REGULAR_EXPRESSION "ERROR;WARNING")
+add_test(DrawClipRegionCompareToBaselineTest "C:/Program Files/CMake/bin/cmake.exe" "-E" "compare_files" "C:/D/PBE/bin/Release/Output/outputSpinePhantomPartialSurfaceContactWithClipRegion.mha" "C:/D/PBE/PlusLibData/TestImages/SpinePhantomPartialSurfaceContactWithClipRegionBaseline.mha")
+set_tests_properties(DrawClipRegionCompareToBaselineTest PROPERTIES  DEPENDS "DrawClipRegionRunTest")

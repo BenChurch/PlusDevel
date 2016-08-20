@@ -441,13 +441,14 @@ PlusStatus vtkPlusTransverseProcessEnhancer::ProcessFrame(PlusTrackedFrame* inpu
   // Perform Gaussian smooth on lines image
   if(this->PerformGaussianSmooth)
   {
-	this->GaussianSmooth->SetInputData(this->LinesImage);
+    LOG_INFO("PerformGaussianSmooth == true");
+    this->GaussianSmooth->SetInputData(this->LinesImage);
     this->GaussianSmooth->Update();
-	this->ProcessedLinesImage->DeepCopy(this->GaussianSmooth->GetOutput());
+    this->LinesImage->DeepCopy(this->GaussianSmooth->GetOutput());
   }
   
   
-  //this->ProcessLinesImage();
+  this->ProcessLinesImage();
 
   PlusTrackedFrame* processedLinesFrame = this->ProcessedLinesImageList->GetTrackedFrame(this->ProcessedLinesImageList->GetNumberOfTrackedFrames() - 1);
   processedLinesFrame->GetImageData()->DeepCopyFrom(this->ProcessedLinesImage);

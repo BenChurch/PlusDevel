@@ -17,6 +17,7 @@ See License.txt for details.
 #include "vtksys/SystemTools.hxx"
 
 #include "vtkPlusTransverseProcessEnhancer.h"
+
 //----------------------------------------------------------------------------
 
 vtkStandardNewMacro(vtkPlusImageProcessorVideoSource);
@@ -106,28 +107,26 @@ PlusStatus vtkPlusImageProcessorVideoSource::ReadConfiguration( vtkXMLDataElemen
 
     // Instantiate processor corresponding to the specified type
     vtkSmartPointer<vtkPlusBoneEnhancer> boneEnhancer = vtkSmartPointer<vtkPlusBoneEnhancer>::New();
-    vtkSmartPointer<vtkPlusTransverseProcessEnhancer> boneFilter = vtkSmartPointer<vtkPlusTransverseProcessEnhancer>::New();
-    if (!(STRCASECMP(boneEnhancer->GetProcessorTypeName(), processorType)) || !(STRCASECMP(boneFilter->GetProcessorTypeName(), processorType))) 
+    vtkSmartPointer<vtkPlusTransverseProcessEnhancer> TransverseProcessEnhancer = vtkSmartPointer<vtkPlusTransverseProcessEnhancer>::New();
+    if (!(STRCASECMP(boneEnhancer->GetProcessorTypeName(), processorType))) 
     {
-      if(!(STRCASECMP(boneEnhancer->GetProcessorTypeName(), processorType)))
-      {  
-        boneEnhancer->SetTransformRepository(this->TransformRepository);
-        boneEnhancer->ReadConfiguration(processorElement);
-        this->ProcessorAlgorithm = boneEnhancer;
-        this->ProcessorAlgorithm->Register(this);
-      }
-      else if(!(STRCASECMP(boneFilter->GetProcessorTypeName(), processorType)))    
-      {
-        LOG_DEBUG("Processor algorithm set to " << boneFilter->GetProcessorTypeName());
-        boneFilter->SetTransformRepository(this->TransformRepository);
-        boneFilter->ReadConfiguration(processorElement);
-        this->ProcessorAlgorithm = boneFilter;
-        this->ProcessorAlgorithm->Register(this);
-      }
+      boneEnhancer->SetTransformRepository(this->TransformRepository);
+      boneEnhancer->ReadConfiguration(processorElement);
+      this->ProcessorAlgorithm = boneEnhancer;
+      this->ProcessorAlgorithm->Register(this);
+      break;                  // If only one processor is allowed per ImageProcessor class, we can break out when we find it.
+    }
+    else if(!(STRCASECMP(TransverseProcessEnhancer->GetProcessorTypeName(), processorType)))
+    {
+      TransverseProcessEnhancer->SetTransformRepository(this->TransformRepository);
+      TransverseProcessEnhancer->ReadConfiguration(processorElement);
+      this->ProcessorAlgorithm = TransverseProcessEnhancer;
+      this->ProcessorAlgorithm->Register(this);
+      break;
     }
     else
     {
-      LOG_ERROR("Unkwnon processor type: "<<processorType);
+      LOG_ERROR("Unknown processor type: "<<processorType);
       return PLUS_FAIL;
     }
   }

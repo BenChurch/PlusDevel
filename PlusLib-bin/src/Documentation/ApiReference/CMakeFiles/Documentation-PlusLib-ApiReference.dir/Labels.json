@@ -1,0 +1,291 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "C:/D/PBE/PlusLib-bin/src/Documentation/ApiReference/CMakeFiles/Documentation-PlusLib-ApiReference"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/AlgorithmPhantomRegistration.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/AlgorithmPivotCalibration.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/AlgorithmProbeCalibration.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/AlgorithmRfProcessing.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/AlgorithmTemporalCalibration.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/AlgorithmVolumeReconstruction.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/ApplicationAccurateTimerTest.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/ApplicationCreateSliceModels.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/ApplicationDrawClipRegion.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/ApplicationDrawScanlines.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/ApplicationEditSequenceFile.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/ApplicationExtractScanLines.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/ApplicationPlusVersion.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/ApplicationProbeCalibration.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/ApplicationRfProcessor.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/ApplicationScanConvert.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/ApplicationTemporalCalibration.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/ApplicationTrackingTest.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/ApplicationViewSeqMetaFile.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/ApplicationVolumeReconstructor.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/CommonCoordinateSystems.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/CoordinateSystemDefinitions.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DataCollection.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/Device3dConnexion.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceAscension3DG.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceBkProFocus.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceBrachy.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceCapistrano.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceChRobotics.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceEpiphan.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceFake.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceGenericSerial.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceICCapturing.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceIntelRealSense.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceInterson.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceIntersonSDKCxx.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceMicrochip.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceMicron.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceMicrosoftMediaFoundation.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceNDICertus.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceOpenIGTLinkTracker.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceOpenIGTLinkVideo.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceOptiTrack.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceOptimetConoProbe.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DevicePhidgetSpatial.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DevicePhilips.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DevicePolaris.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceSavedDataSource.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceSonixVideo.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceStealthLink.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceTelemed.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceThorLabs.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceUs.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceUsSimulatorVideo.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceVideoForWindows.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceVirtualDiscCapture.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceVirtualMixer.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceVirtualSwitcher.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceVirtualTextRecognizer.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/DeviceVirtualVolumeReconstructor.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/FileLog.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/FileSequenceMetafile.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/PlusServerCommands.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/SupportedPlatforms.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/UltrasoundImageOrientation.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/UserManual/UsImagingParameters.dox"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib/src/Documentation/ApiReference/CMakeLists.txt"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib-bin/CMakeFiles/0951827db00ae4b4b13e756572205033/Documentation-PlusLib-ApiReference.rule"
+		},
+		
+		{
+			"file" : "C:/D/PBE/PlusLib-bin/CMakeFiles/ada9d04801844efd0da55d28bdc8bdf5/PlusLib-ApiReference.chm.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "Documentation" ],
+		"name" : "Documentation-PlusLib-ApiReference"
+	}
+}

@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusCalibration\PatternLocAlgo\PlusFidSegmentation.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusCalibration\PatternLocAlgo\PlusFidLineFinder.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusCalibration\PatternLocAlgo\PlusFidLabeling.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusCalibration\PatternLocAlgo\PlusFidPatternRecognitionCommon.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusCalibration\PatternLocAlgo\PlusFidPatternRecognition.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusCalibration\PatternLocAlgo\PlusPatternLocResultFile.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkProbeCalibrationAlgo\vtkPlusProbeCalibrationAlgo.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkProbeCalibrationAlgo\vtkPlusProbeCalibrationOptimizerAlgo.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkPivotCalibrationAlgo\vtkPlusPivotCalibrationAlgo.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkPhantomLandmarkRegistrationAlgo\vtkPlusPhantomLandmarkRegistrationAlgo.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkPhantomLandmarkRegistrationAlgo\vtkPlusLandmarkDetectionAlgo.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkPhantomLandmarkRegistrationAlgo\vtkPlusReadTrackedSignals.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkPhantomLinearObjectRegistrationAlgo\vtkPlusPhantomLinearObjectRegistrationAlgo.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkSpacingCalibAlgo\vtkPlusSpacingCalibAlgo.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkCenterOfRotationCalibAlgo\vtkPlusCenterOfRotationCalibAlgo.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkBrachyStepperPhantomRegistrationAlgo\vtkPlusBrachyStepperPhantomRegistrationAlgo.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkTemporalCalibrationAlgo\vtkPlusTemporalCalibrationAlgo.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkTemporalCalibrationAlgo\vtkPlusPrincipalMotionDetectionAlgo.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkLineSegmentationAlgo\vtkPlusLineSegmentationAlgo.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkPhantomLinearObjectRegistrationAlgo\Line.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkPhantomLinearObjectRegistrationAlgo\LinearObject.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkPhantomLinearObjectRegistrationAlgo\LinearObjectBuffer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkPhantomLinearObjectRegistrationAlgo\Point.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkPhantomLinearObjectRegistrationAlgo\Plane.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkPhantomLinearObjectRegistrationAlgo\Planes.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkPhantomLinearObjectRegistrationAlgo\PointObservation.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkPhantomLinearObjectRegistrationAlgo\PointObservationBuffer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkPhantomLinearObjectRegistrationAlgo\Reference.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkPhantomLinearObjectRegistrationAlgo\References.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusCalibration\PatternLocAlgo\PlusFidSegmentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusCalibration\PatternLocAlgo\PlusFidLineFinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusCalibration\PatternLocAlgo\PlusFidLabeling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusCalibration\PatternLocAlgo\PlusFidPatternRecognitionCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusCalibration\PatternLocAlgo\PlusFidPatternRecognition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusCalibration\PatternLocAlgo\PlusPatternLocResultFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkProbeCalibrationAlgo\vtkPlusProbeCalibrationAlgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkProbeCalibrationAlgo\vtkPlusProbeCalibrationOptimizerAlgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkPivotCalibrationAlgo\vtkPlusPivotCalibrationAlgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkPhantomLandmarkRegistrationAlgo\vtkPlusPhantomLandmarkRegistrationAlgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkPhantomLandmarkRegistrationAlgo\vtkPlusLandmarkDetectionAlgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkPhantomLandmarkRegistrationAlgo\vtkPlusReadTrackedSignals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkPhantomLinearObjectRegistrationAlgo\vtkPlusPhantomLinearObjectRegistrationAlgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkSpacingCalibAlgo\vtkPlusSpacingCalibAlgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkCenterOfRotationCalibAlgo\vtkPlusCenterOfRotationCalibAlgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkBrachyStepperPhantomRegistrationAlgo\vtkPlusBrachyStepperPhantomRegistrationAlgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkTemporalCalibrationAlgo\vtkPlusTemporalCalibrationAlgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkTemporalCalibrationAlgo\vtkPlusPrincipalMotionDetectionAlgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkLineSegmentationAlgo\vtkPlusLineSegmentationAlgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkPhantomLinearObjectRegistrationAlgo\Line.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkPhantomLinearObjectRegistrationAlgo\LinearObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkPhantomLinearObjectRegistrationAlgo\LinearObjectBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkPhantomLinearObjectRegistrationAlgo\Plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkPhantomLinearObjectRegistrationAlgo\Planes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkPhantomLinearObjectRegistrationAlgo\PointObservation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkPhantomLinearObjectRegistrationAlgo\PointObservationBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkPhantomLinearObjectRegistrationAlgo\Reference.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusCalibration\vtkPhantomLinearObjectRegistrationAlgo\References.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\D\PBE\PlusLib\src\PlusCalibration\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1BFDEF91-6BE8-3172-8E1A-3C4C34F0F51E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F20E7A88-F753-3C99-8EEF-B38A2EE233FB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

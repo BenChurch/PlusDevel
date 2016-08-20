@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusVolumeReconstruction\vtkPlusPasteSliceIntoVolume.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusVolumeReconstruction\vtkPlusVolumeReconstructor.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusVolumeReconstruction\vtkPlusFillHolesInVolume.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\D\PBE\PlusLib\src\PlusVolumeReconstruction\vtkPlusFanAngleDetectorAlgo.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusVolumeReconstruction\fixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusVolumeReconstruction\vtkPlusPasteSliceIntoVolume.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusVolumeReconstruction\vtkPlusPasteSliceIntoVolumeHelperCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusVolumeReconstruction\vtkPlusPasteSliceIntoVolumeHelperOptimized.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusVolumeReconstruction\vtkPlusPasteSliceIntoVolumeHelperUnoptimized.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusVolumeReconstruction\vtkPlusVolumeReconstructor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusVolumeReconstruction\vtkPlusFillHolesInVolume.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\D\PBE\PlusLib\src\PlusVolumeReconstruction\vtkPlusFanAngleDetectorAlgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\D\PBE\PlusLib\src\PlusVolumeReconstruction\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1BFDEF91-6BE8-3172-8E1A-3C4C34F0F51E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F20E7A88-F753-3C99-8EEF-B38A2EE233FB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\D\PBE\PlusLib\src\Documentation\ApiReference\CMakeLists.txt" />
+    <CustomBuild Include="C:\D\PBE\PlusLib-bin\CMakeFiles\ada9d04801844efd0da55d28bdc8bdf5\PlusLib-ApiReference.chm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\D\PBE\PlusLib-bin\CMakeFiles\0951827db00ae4b4b13e756572205033\Documentation-PlusLib-ApiReference.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\D\PBE\PlusLib-bin\src\Documentation\ApiReference\CMakeFiles\Documentation-PlusLib-ApiReference" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\AlgorithmPhantomRegistration.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\AlgorithmPivotCalibration.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\AlgorithmProbeCalibration.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\AlgorithmRfProcessing.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\AlgorithmTemporalCalibration.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\AlgorithmVolumeReconstruction.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\ApplicationAccurateTimerTest.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\ApplicationCreateSliceModels.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\ApplicationDrawClipRegion.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\ApplicationDrawScanlines.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\ApplicationEditSequenceFile.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\ApplicationExtractScanLines.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\ApplicationPlusVersion.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\ApplicationProbeCalibration.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\ApplicationRfProcessor.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\ApplicationScanConvert.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\ApplicationTemporalCalibration.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\ApplicationTrackingTest.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\ApplicationViewSeqMetaFile.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\ApplicationVolumeReconstructor.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\CommonCoordinateSystems.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\CoordinateSystemDefinitions.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DataCollection.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\Device3dConnexion.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceAscension3DG.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceBkProFocus.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceBrachy.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceCapistrano.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceChRobotics.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceEpiphan.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceFake.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceGenericSerial.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceICCapturing.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceIntelRealSense.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceInterson.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceIntersonSDKCxx.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceMicrochip.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceMicron.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceMicrosoftMediaFoundation.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceNDICertus.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceOpenIGTLinkTracker.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceOpenIGTLinkVideo.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceOptiTrack.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceOptimetConoProbe.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DevicePhidgetSpatial.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DevicePhilips.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DevicePolaris.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceSavedDataSource.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceSonixVideo.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceStealthLink.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceTelemed.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceThorLabs.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceUs.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceUsSimulatorVideo.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceVideoForWindows.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceVirtualDiscCapture.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceVirtualMixer.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceVirtualSwitcher.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceVirtualTextRecognizer.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\DeviceVirtualVolumeReconstructor.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\FileLog.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\FileSequenceMetafile.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\PlusServerCommands.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\SupportedPlatforms.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\UltrasoundImageOrientation.dox" />
+    <None Include="C:\D\PBE\PlusLib\src\Documentation\UserManual\UsImagingParameters.dox" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8304A2AD-6501-3123-900B-154BB3646AB6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
